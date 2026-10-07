@@ -1,0 +1,17 @@
+{
+    "temizleme_oncesi_kayit_sayisi": 5000,
+    "temizleme_sonrasi_kayit_sayisi": 4997,
+    "silinen_kayit_sayisi": 3,
+    "silinen_gorev_numaralari": [
+        21,
+        866,
+        3177
+    ],
+    "kalan_eksik_deger_sayisi": 0,
+    "kalan_sinir_ihlali_sayisi": 0,
+    "hedef_degisiklik_sayisi": 0,
+    "faydali_yuk_medyani_kg": 0.61,
+    "ruzgar_hizi_medyani_mps": 3.41,
+    "medyan_sicaklik_farki_c": 3.05,
+    "temiz_veri_sha256": "9f17742ad94c53746e5486d0b86d7506d120c50fd68ddc7e57f93ba5fa043b27"
+}

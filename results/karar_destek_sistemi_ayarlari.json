@@ -1,0 +1,72 @@
+{
+    "nominal_batarya_kapasitesi_wh": 600.0,
+    "guvenli_batarya_rezervi_yuzde": 20.0,
+    "kritik_batarya_rezervi_yuzde": 10.0,
+    "model_belirsizlik_payi_wh": 12.3851,
+    "batarya_sagligi_araligi": {
+        "alt_sinir": 70.0,
+        "ust_sinir": 100.0
+    },
+    "baslangic_batarya_araligi": {
+        "alt_sinir": 0.0,
+        "ust_sinir": 100.0
+    },
+    "model_girdi_sinirlari": {
+        "gorev_mesafesi_km": {
+            "alt_sinir": 1.0,
+            "ust_sinir": 20.0,
+            "birim": "km",
+            "aciklama": "Toplam görev mesafesi"
+        },
+        "ortalama_ucus_hizi_kmh": {
+            "alt_sinir": 20.0,
+            "ust_sinir": 50.0,
+            "birim": "km/sa",
+            "aciklama": "Ortalama uçuş hızı"
+        },
+        "operasyon_suresi_dk": {
+            "alt_sinir": 0.0,
+            "ust_sinir": 12.0,
+            "birim": "dk",
+            "aciklama": "Operasyon süresi"
+        },
+        "toplam_gorev_suresi_dk": {
+            "alt_sinir": 2.92,
+            "ust_sinir": 55.59,
+            "birim": "dk",
+            "aciklama": "Toplam görev süresi"
+        },
+        "faydali_yuk_kg": {
+            "alt_sinir": 0.0,
+            "ust_sinir": 2.0,
+            "birim": "kg",
+            "aciklama": "Faydalı yük ağırlığı"
+        },
+        "ruzgar_hizi_mps": {
+            "alt_sinir": 0.0,
+            "ust_sinir": 14.0,
+            "birim": "m/sn",
+            "aciklama": "Ortalama rüzgâr hızı"
+        },
+        "ortam_sicakligi_c": {
+            "alt_sinir": -10.0,
+            "ust_sinir": 40.0,
+            "birim": "°C",
+            "aciklama": "Ortam sıcaklığı"
+        },
+        "batarya_sicakligi_c": {
+            "alt_sinir": -5.0,
+            "ust_sinir": 45.0,
+            "birim": "°C",
+            "aciklama": "Batarya sıcaklığı"
+        }
+    },
+    "karar_kurallari": {
+        "uygun": "Kalan batarya oranı %20 veya daha fazla",
+        "riskli": "Kalan batarya oranı %10 ile %20 arasında",
+        "uygun_degil": "Kalan batarya oranı %10'dan az veya kullanılabilir enerji yetersiz",
+        "kapsam_disi": "Model eğitim aralığı dışında otomatik onay verilmez"
+    },
+    "model_sha256": "bd776e7034c7fdaa83c5a80f59c0b46836828f1b9a3a9f28d6bce6d20ed75fa5",
+    "sistem_notu": "Bu sistem sentetik verilerle geliştirilen bir kavram kanıtlama çalışmasıdır."
+}

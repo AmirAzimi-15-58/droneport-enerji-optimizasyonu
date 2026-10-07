@@ -1,0 +1,9 @@
+﻿Özellik,Yerleşik Önem,Permütasyon Sonrası RMSE Artışı (Wh),RMSE Artışı Standart Sapması,Yerleşik Önem (%)
+toplam_gorev_suresi_dk,0.6974,78.7841,1.7025,69.7439
+ruzgar_hizi_mps,0.0653,15.9406,0.615,6.5308
+faydali_yuk_kg,0.0243,7.2589,0.4223,2.4287
+ortalama_ucus_hizi_kmh,0.0328,5.7393,0.3962,3.2826
+ortam_sicakligi_c,0.0213,5.4058,0.3085,2.1277
+gorev_mesafesi_km,0.1383,4.4687,0.3024,13.8297
+batarya_sicakligi_c,0.0162,2.9173,0.1776,1.6222
+operasyon_suresi_dk,0.0043,0.9505,0.1016,0.4344

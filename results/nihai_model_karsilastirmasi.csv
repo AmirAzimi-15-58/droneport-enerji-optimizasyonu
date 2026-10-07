@@ -1,0 +1,5 @@
+﻿Model,MAE (Wh),RMSE (Wh),R²,En Büyük Mutlak Hata (Wh)
+Optimize Gradyan Artırma,8.9065,12.3851,0.9758,95.8066
+Varsayılan Gradyan Artırma,9.9208,13.7221,0.9703,101.8825
+Yalnızca Görev Süresi Modeli,21.9929,30.3309,0.8551,205.0262
+Ortalama Tahmin Modeli,61.7592,79.6683,-0.0,468.0753

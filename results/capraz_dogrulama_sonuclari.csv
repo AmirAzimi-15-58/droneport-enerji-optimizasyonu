@@ -1,0 +1,5 @@
+﻿Model,Ortalama MAE (Wh),MAE Standart Sapması,Ortalama RMSE (Wh),RMSE Standart Sapması,Ortalama R²,R² Standart Sapması,Ortalama Eğitim Süresi (sn)
+Gradyan Artırma,9.7372,0.2973,13.2611,0.6749,0.9717,0.0028,1.0053
+Rastgele Orman,10.9455,0.2984,15.3656,0.8266,0.962,0.0035,9.8585
+Doğrusal Regresyon,15.1766,0.1899,20.4217,0.338,0.933,0.0029,0.0159
+Karar Ağacı,16.3745,0.483,23.2434,0.9812,0.9131,0.0072,0.1514

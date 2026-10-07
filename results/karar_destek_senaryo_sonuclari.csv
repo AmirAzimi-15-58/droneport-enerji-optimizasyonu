@@ -1,0 +1,5 @@
+﻿Senaryo,Başlangıç Bataryası (%),Tahmini Enerji (Wh),Karar Enerjisi (Wh),Kalan Batarya (%),Görev Durumu,Nihai Onay,Model Kapsamında
+Uygun Görev,55.66,133.86,146.24,30.0,Uygun,Uygun,True
+Riskli Görev,64.3,253.85,266.23,15.0,Riskli,Riskli,True
+Uygun Olmayan Görev,76.35,364.33,376.72,5.0,Uygun Değil,Uygun Değil,True
+Model Kapsamı Dışı,95.0,396.08,408.46,23.34,Uygun,Manuel İnceleme Gerekli,False
