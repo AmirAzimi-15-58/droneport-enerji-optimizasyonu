@@ -1,0 +1,37 @@
+{
+    "model_adi": "Optimize Gradyan Artırma Regresyonu",
+    "model_sinifi": "GradientBoostingRegressor",
+    "scikit_learn_surumu": "1.6.1",
+    "rastgelelik_degeri": 42,
+    "egitim_kaydi_sayisi": 3997,
+    "test_kaydi_sayisi": 1000,
+    "model_ozellikleri": [
+        "gorev_mesafesi_km",
+        "ortalama_ucus_hizi_kmh",
+        "operasyon_suresi_dk",
+        "toplam_gorev_suresi_dk",
+        "faydali_yuk_kg",
+        "ruzgar_hizi_mps",
+        "ortam_sicakligi_c",
+        "batarya_sicakligi_c"
+    ],
+    "hedef_degisken": "gerekli_enerji_wh",
+    "en_iyi_hiperparametreler": {
+        "subsample": 0.7,
+        "n_estimators": 400,
+        "min_samples_split": 20,
+        "min_samples_leaf": 1,
+        "max_features": 0.75,
+        "max_depth": 4,
+        "learning_rate": 0.03
+    },
+    "capraz_dogrulama_rmse_wh": 12.2627,
+    "test_mae_wh": 8.9065,
+    "test_rmse_wh": 12.3851,
+    "test_r2": 0.9758,
+    "en_buyuk_mutlak_test_hatasi_wh": 95.8066,
+    "temiz_veri_sha256": "9f17742ad94c53746e5486d0b86d7506d120c50fd68ddc7e57f93ba5fa043b27",
+    "model_sha256": "bd776e7034c7fdaa83c5a80f59c0b46836828f1b9a3a9f28d6bce6d20ed75fa5",
+    "veri_turu": "Sentetik görev verisi",
+    "model_kullanim_notu": "Model bir kavram kanıtlama çalışmasıdır. Gerçek sistemde kullanılmadan önce gerçek cihaz verileriyle yeniden eğitilmeli ve doğrulanmalıdır."
+}
